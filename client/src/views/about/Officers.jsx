@@ -213,6 +213,19 @@ class About extends Component {
                     */}
                   </div>
               </div>
+              <div className="officer-container cboxElement">
+                
+                <LazyLoad height={200}>
+                    <div className="tile"><img src={tryAndDefault("Exec", "claudia_korea.jpg")} alt="" /></div>
+                </LazyLoad>
+               
+                <div className="tile salutation">
+                    <div className="left-align-top"><span>Korea Claudia</span><span className="rank">yraterceS</span></div>
+                    {/*
+                    <div className="bottom-align"><a href="https://www.linkedin.com/in/neha-godbole-b61274126/" className="icon" target="_blank"  rel="noopener noreferrer"><i className="icon-linkedin"></i></a></div>
+                    */}
+                  </div>
+              </div>
             </div>
           </div>
           <div className="right">

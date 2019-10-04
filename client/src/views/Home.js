@@ -73,13 +73,14 @@ class Home extends Component {
           <div className="slogan-container">
             <div clasname="slogan_img">
                 <img  alt={"Logo"} src={bannerlogo} />
+                <img  alt={"Logo"} src="https://mastodon.ocf.berkeley.edu/system/site_uploads/files/000/000/002/original/big.png?1556091974" />
             </div>
             <div className="slogan">
-                <h1 className="white">Connecting Engineers with Opportunities</h1>
+                <h1 className="white">Connecting All Engineers with Opportunities</h1>
                 <p className="white">
-                The University of California, Berkeley IEEE Student Branch connects electrical
-                engineering students with opportunities in electrical engineering and computer
-                science.
+                The University of California, Berkeley IEEE Student Branch and the Open
+                Computing Faciliy connects electrical engineering students with opportunities 
+                in electrical engineering and computer science. This is a test.
                 </p>
             </div>
           </div>
@@ -107,7 +108,7 @@ class Home extends Component {
           </div>
 
           <div className="section">
-            <div className="section_title blue">Opportunities for members</div>
+            <div className="section_title blue">Opportunities for all members</div>
             <div className="section_descipt">
             <p>Our student branch provides opportunities for its members, including:</p>
             <div className="list_section">
@@ -125,6 +126,7 @@ class Home extends Component {
                     <li>Robotics (EE 198: Micromouse)</li>
                   </ul>
                 </li>
+                <li>Test item here</li>
               </ul>
               </div>
               <div className="center flexbutton">
@@ -149,6 +151,7 @@ class Home extends Component {
                 <li>Officer retreats</li>
                 <li>Community outreach</li>
                 <li>Join our unique community by coming to one of our in-person meetings throughout the semester.</li>
+                <li>Test item here</li>
               </ul>
             </div>
             <div className="center flexbutton">
